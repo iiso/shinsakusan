@@ -1,0 +1,754 @@
+html { font-size: 62.5%; color: #2e2e2e;font-family:'Arial',
+ 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',
+ Meiryo, メイリオ, safns-serif; -webkit-font-smoothing: antialiased;}
+a{text-decoration: none; color: #444;}
+figure{margin:0;}
+input[type="search"]{background-position: 14px center; width: 100%; border: 1px solid ‪#‎eee; box-shadow: 1px 1px 3px ‪#‎e8e8e8 inset; outline: none;
+	background-color: ‪#‎fafafa‬; background-image: url(../img/icon/menu-grass.png); background-repeat: no-repeat; background-size: 15px; border-radius: 36px;padding: 8px 12px 10px 32px; font-size: 12px; border:none; box-shadow: 1px 2px 0px 1px rgba(0,0,0,0.2);}
+.hide{display:none;}
+/*button*/
+.blue-button{background-color: #3a428b; padding: 12px 25px; background-image: url(../img/basic/button_arrow.png);  background-position: 90% center; background-size: 8px; background-repeat: no-repeat; display: block; color: #fff; width:170px;
+border-radius: 3px; font-size: 14px; font-size: 1.4rem; margin: 10px 0 0 ; text-align: center;}
+.more-reading{text-align: center;display: block;width: 35%;margin: 0 auto;border-radius: 3px;background-color: #f2f2f2;
+font-size: 12px;font-size: 1.2rem;padding: 12px 9%;}
+
+/*登録ボタン*/
+.register-button{/*background-color: #fff; background-color: rgba(255,255,255,0.94);*/
+border: 1px solid #f5bdb8; color: #dd0f00; font-size: 12px; font-size: 1.2rem; border-radius: 4px; display: block; margin: 0 auto; min-height: 1px;
+padding: 3px; -webkit-transition: all 0.2s linear; cursor: pointer;}
+.register-button:hover{opacity:0.9;}
+span.active{
+	width: 74%; background-color: #dd0f00; color: #fff; font-weight: bold;}
+
+
+/*======== nav ========*/
+.sp-sv{overflow: hidden;  position: absolute; padding: 10px 0;
+height: 20px; width: 100%; z-index: 99999; }
+.sp-sv .sp-svname{position: absolute; top: 16px; width: 50%; left: 25%;
+text-align: center; z-index: 999999999; color: rgba(255,255,255,0.3); font-size: 14px; letter-spacing: 1px;}
+.home .sp-sv .sp-svname{top:24px;}
+.navigation {width: 100%;position: fixed;bottom: 0;left: 0; overflow: hidden; z-index: 99999;
+	background: rgba(255,255,255,0.92);height: 45px; box-shadow: -1px 0px 3px #666;}
+.navigation>.nav-wrap {}
+.navigation>.nav-wrap>.lp-navcontent {}
+.navigation>.nav-wrap>.lp-navcontent>.login {float:right;padding: 10px;}
+.navigation>.nav-wrap>.lp-navcontent>.home {float: left; background-image: url(); background-repeat: no-repeat; padding: 10px;}
+.navigation>.nav-wrap>.nav-static{position: relative;}
+.navigation>.nav-wrap>.nav-static>.home{
+width: 33.4%; float: left; }
+.navigation>.nav-wrap>.nav-static>.home>a{
+	padding: 28px; display: block;
+	background-image: url(../img/icon/home.png); background-repeat: no-repeat; background-size: 24px; background-position: center 5px;}
+.navigation>.nav-wrap>.nav-static>.home>a>.sp{text-align: center; color: #989898;
+display: block; font-size: 12px; font-size: 1.2rem; font-weight: bold; -webkit-font-smoothing: antialiased;}
+.navigation>.nav-wrap>.nav-static>.home>a>.pc{display: none;  color:#989898; }
+.navigation>.nav-wrap>.nav-static>.home>a:hover,.navigation>.nav-wrap>.nav-static>.home>a.active{background-image: url(../img/icon/home_active.png);}
+.navigation>.nav-wrap>.nav-static>.home>a:hover span,.navigation>.nav-wrap>.nav-static>.home>a.active span{color: #6167a1;}
+.navigation>.nav-wrap>.nav-static>.search{float: left; display: block; text-align: center;
+width: 33.3%;}
+.navigation>.nav-wrap>.nav-static>.search a{
+	padding: 28px 0px 0; color:#989898; display: block; font-size: 12px;font-size: 1.2rem;  font-weight: bold; -webkit-font-smoothing: antialiased;
+ background-image: url(../img/icon/search.png); background-repeat: no-repeat; background-size: 20px 19px; background-position: center 5px;}
+.navigation>.nav-wrap>.nav-static>.search a:hover,.navigation>.nav-wrap>.nav-static>.search a.active{background-image: url(../img/icon/search_active.png); color: #6167a1;}
+.navigation>.nav-wrap>.nav-static>.profile{width: 33.3%; display: block; float: left; text-align: center;}
+.navigation>.nav-wrap>.nav-static>.profile a{
+	padding: 28px 0px 0; color:#989898; display: block; font-size: 12px; font-size: 1.2rem; font-weight: bold; -webkit-font-smoothing: antialiased;
+    background-image: url(../img/icon/profile.png); background-repeat: no-repeat; background-size: 20px 21px; background-position: center 5px; }
+.navigation>.nav-wrap>.nav-static>.profile a:hover,.navigation>.nav-wrap>.nav-static>.profile a.active{background-image: url(../img/icon/profile_active.png); color: #6167a1;}
+.navigation>.nav-wrap>.nav-register {position: relative;}
+.navigation>.nav-wrap>.nav-register>.back {position: relative; left: 0%; padding: 0 1px 0 5px;}
+.navigation>.nav-wrap>.nav-register>.back>a {display: block;padding: 14px 1% 14px 7%;color: #666;float: left;font-size: 8px;font-size: 1.4rem;
+background-repeat: no-repeat;background-position: 10px center;background-size: 8px;background-image: url(../img/basic/button_arrow_left.png);}
+.navigation>.nav-wrap>.nav-register>.next>a {color:#3a428b; text-align: center; display: block;padding: 14px 15px 14px 10px; font-size: 14px;font-size: 1.4rem;
+background-image: url(../img/arrow_blue.png); background-repeat: no-repeat;background-position: 90% center;background-size: 8px;}
+/*======== lp ========*/
+.lp .top {overflow: hidden; text-align: center; margin: 45px 0;}
+.lp .top>a>.catch {font-size: 24px; width: 80%; margin: 0 auto; }
+.lp .top>.login {}
+.lp .top>.login>.login-top {width: 80%; margin: 0 auto; }
+.lp .top>.login>.login-top>.fb-reg-button {display: block; padding: 16px 20px 14px; margin: 20px auto; width: 80%; cursor: pointer; background-color: #ddd;}
+.lp .top>.login>.login-top>.fb-reg-button>span {}
+.lp .top>.login>.login-bottom {overflow: hidden;width: 74%; margin: 0 auto;}
+.lp .top>.login>.login-bottom>.login-button{float: left; display: block; padding: 16px 20px 14px; width: 28%; cursor: pointer; background-color: #f2f2f2;}
+.lp .top>.login>.log1in-bottom>.register-button{float: right; display: block; padding: 16px 20px 14px; width: 28%; cursor: pointer; background-color: #f2f2f2;}
+.lp .explain-1 {}
+.lp .explain-1>.content {width: 80%; margin: 0 auto; }
+.lp .explain-1>.content>.explain-catch {font-size: 24px; text-align: center;}
+.lp .explain-1>.content>div {}
+.lp .explain-1>.content>div>p {float: left;}
+.lp .explain-1>.content>div>.image {float: left;}
+.lp .explain-1>.content>div>.image>img {}
+
+/*======== index ========*/
+.lp {
+	font-size:16px;
+	font-weight: 1.6rem;
+	}
+
+.fbloginlp-button {
+	display:block;
+	background-color:#4e69a2;
+	text-align: center;
+	color:#fff;
+	font-size:14px;
+	font-size:1.4rem;
+	border-radius:3px;
+	padding:26px 0;
+	box-shadow: 2px 2px 3px #c7c7c7;
+}
+
+.lp-top {
+background-image:url(../img/lp/lp-img.jpg);
+background-position:bottom;
+background-repeat:repeat-x;
+}
+
+.lp-top .top-wrap {
+}
+
+.lp-top .top-wrap .head {
+overflow: hidden;
+margin: 0px auto 25px;
+padding: 25px 0 0;
+width: 50%;
+color: #fff;
+}
+
+.lp-top .top-wrap .head .service-title {
+	background-image:url(../img/basic/logo.png);
+	background-repeat:no-repeat;
+	background-position:0% 50%;
+	background-size: 20px 20px;
+	padding: 4px 0 0 26px;
+	opacity:0.8;
+}
+
+.lp-top .top-wrap .contents-wrap {
+overflow: hidden;
+}
+
+.lp-top .top-wrap .contents-wrap .copy {
+	
+}
+
+.lp-top .top-wrap .contents-wrap .copy .main-text {
+font-size:38px;
+font-size:3.8rem;
+width:90%;
+color: #fff;
+margin: 0 auto 20px;
+text-align: center;
+line-height: 1.2;
+}
+
+.lp-top .top-wrap .contents-wrap .copy p{
+	font-size:16px;
+	font-size: 1.6rem;
+	color: #fff;width: 90%;
+    margin: 0 auto 42px;
+}
+
+.lp-top .top-wrap .contents-wrap .copy .fbloginlp-button {
+width: 80%;
+margin: 0 auto;
+box-shadow: none;
+padding: 20px 10px;
+background-color:rgba(59,89,152,0.9);
+}
+
+.lp-top .top-wrap .contents-wrap .copy .fbloginlp-button:hover{
+background-color: rgba(102,132,194,0.9)
+}
+
+.lp-top .top-wrap .contents-wrap figure {
+width: 96%;
+max-height: 432px;
+margin: 0 auto;
+}
+
+.lp-top .top-wrap .contents-wrap figure img{
+width: 100%;
+position: relative;
+top: 30px;
+}
+
+
+
+/*lp-merit1*/
+.lp-merit1 {
+	overflow: hidden;
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.lp-merit1 .right {
+margin: 0 auto 20px;
+}
+
+.lp-merit1 .right h2 {
+font-size: 24px;
+font-size: 2.4rem;
+font-weight:bold;
+line-height: 1.3;
+margin: 30px auto 16px;
+width: 90%;
+text-align: center;
+}
+
+.lp-merit1 .right p {
+width: 90%;
+margin: 0 auto;
+text-align: center;
+}
+
+.lp-merit1 .left {
+margin: 0 auto 40px;
+}
+
+.lp-merit1 .left figure {
+width: 86%;
+margin: 0 auto;
+}
+
+.lp-merit1 .left figure img {
+width: 100%;
+}
+
+.lp .lp-merit2 {
+	overflow: hidden;
+	background-image: url(../img/lp/hamon.png);
+	background-repeat: repeat-x;
+	background-position:bottom;
+	box-shadow: 0px -1px 3px rgba(0,0,0,0.1) inset;
+	background-position: center 124%;
+}
+
+.lp .lp-merit2 h2{
+font-size: 24px;
+font-size: 2.4rem;
+font-weight:bold;
+line-height: 1.3;
+margin: 30px auto 16px;
+width: 90%;
+text-align: center;
+}
+
+.lp .lp-merit2 p{
+width: 90%;
+margin: 0 auto 30px;
+text-align: center;
+}
+
+.lp .lp-merit2 .row {
+	overflow: hidden;
+}
+
+.lp .lp-merit2 .row .feature1 {
+}
+
+.lp .lp-merit2 .row .feature1 .text,
+.lp .lp-merit2 .row .feature3 .text{
+	text-align: center;
+	margin: 0 0 10px 0;
+}
+
+.lp .lp-merit2 .row .feature1 .text h3,
+.lp .lp-merit2 .row .feature3 .text h3{
+	font-size: 18px;
+	font-weight: 1.8rem;
+	font-weight:bold;
+	color: #3a4486;
+}
+
+.lp .lp-merit2 .row .feature1 .text p,
+.lp .lp-merit2 .row .feature3 .text p{
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+.lp .lp-merit2 .row .feature1 hr,
+.lp .lp-merit2 .row .feature3 hr{
+	display:none;
+}
+
+.lp .lp-merit2 .row .feature2 {
+position: relative;
+bottom: -98px;
+}
+
+.lp .lp-merit2 .row .feature2 img{
+display: block;
+margin: 0 auto;
+}
+
+.lp .lp-merit2 .row .feature2 img.monthly_notification {
+display: block;
+margin: 0 auto;
+}
+
+.lp .lp-merit2 .row .feature3 {
+position: relative;
+bottom: 310px;
+}
+
+/*lp-notificate*/
+.lp .lp-notificate .lp-subtitle h2 {
+font-size: 24px;
+font-size: 2.4rem;
+font-weight:bold;
+line-height: 1.3;
+margin: 30px auto 16px;
+width: 90%;
+text-align: center;
+}
+
+.lp .lp-notificate .lp-subtitle h2 br{
+display:none;}
+
+.lp .lp-notificate>ul {
+	overflow: hidden;
+	width: 90.6%;
+	margin: 0 auto 20px;
+}
+
+.lp .lp-notificate>ul>.features{
+	margin: 0 0 30px;
+	text-align: center;
+}
+
+.lp .lp-notificate>ul>.features>div{
+	padding: 40px;
+	width: 32px;
+	height: 32px;
+	margin: 0 auto 10px;
+}
+
+.lp .lp-notificate>ul>.features>.icon-one{
+	background-image: url(../img/lp/search.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.lp .lp-notificate>ul>.features>.icon-two{
+	background-image: url(../img/lp/favorite.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.lp .lp-notificate>ul>.features>.icon-three {
+	background-image: url(../img/lp/mail.png);
+	background-repeat: no-repeat; background-position: 50% 50%; 
+}
+.lp .lp-notificate>ul>.features>h3 {
+font-size: 20px;
+font-size: 2.0rem;
+font-weight: bold;
+color:#555;
+margin: 0 0 10px;
+-webkit-font-smoothing: antialiased;
+}
+.lp .lp-notificate>ul>.features>p {font-size: 14px; font-size: 1.4rem;}
+
+
+
+
+.lp .lp-start {background-image: url(../img/bg-img.jpg); background-size: cover; background-position: center; overflow: hidden;}
+
+.lp .lp-start>.lp-start-wrap {
+margin: 20px auto;
+padding: 6%;
+width: 80%;
+border: 2px solid #c8c6cf;
+text-align: center;}
+
+.lp .lp-start>.lp-start-wrap>h2 {
+font-size: 28px;
+font-size: 2.8rem;
+line-height: 1.3;
+color: #fff;
+margin: 0 0 12px;
+}
+
+.lp .lp-start>.lp-start-wrap>.fbloginlp-button {width: 94%; padding: 20px 10px; box-shadow: 1px 1px 3px #666;}
+
+/*======== home ========*/
+.search-area>form>.search-form{width: 80%;}
+/*======== register ========*/
+.register-finish{min-height: 640px; background-color: #61658c;}
+
+.register-top{width: 90.6%; margin: 0px auto; overflow: hidden; padding: 0px;}
+.register-title {padding: 9% ; margin: 0 auto 0px; background-color:#6c709b;}
+.register-title>.catch {font-size: 21px; font-size: 2.1rem; letter-spacing: -0.3px; line-height: 1.6;color: #fff; margin: 0 auto 16px; -webkit-font-smoothing:antialiased;}
+.register-title>.finish-button{ margin-top:12px; padding: 12px 15px 12px 0px; -webkit-font-smoothing: antialiased;}
+.register-title>form{margin: 0px 0 0;}
+.register-title>form>input{background-image: url(../img/icon/search-grass.png); background-repeat: no-repeat;background-position: 14px center;background-size: 12px; border-radius: 36px;padding: 6px 12px 6px 32px; font-size: 12px;}
+.register-title>.steps{overflow: hidden;}
+.register-title>.steps ul li{float: left;
+font-size: 14px;
+color: #a4a4a4;}
+.register-title>.steps ul .arrow{
+width: 30%;
+margin: 0 7%;
+height: 1px;}
+.register-title-search{background-color:#5c5f7c; padding:16px 10px 17px;}
+.register-top>form>.search-form{text-align: center; background-color: #666; padding: 20px 10%;}
+.register-top>.button-finished{text-align: center; background-color: #666; padding: 20px 10%;}
+.register-artist{background-color: #dcdcda; padding: 0 0 20px;}
+.register-artist>.title-bar {width: 94%; font-size: 14px; margin: 0px auto 0px; padding: 10px 0 0px;
+color: #777; text-align: center; overflow: hidden;}
+.register-artist>.title-bar a {display: block; padding: 9px 5px 7px 10px; background: #fff; border-radius: 3px; color: #666;
+font-size: 13px; font-size: 1.3rem; text-align: center; margin: 0px 0 4px; }
+.register-artist>.title-bar>a>span {color:#3a428b; font-weight: bold;}
+
+
+.register-title .gototop-area {margin: 30px auto 0;
+}
+.register-title .gototop-area .button {
+	text-align: center; display: block; font-size: 14px; font-size: 1.4rem;
+	background-color: #fff; padding: 12px 0 11px; border-radius: 2px; color: #3a428b; margin: 0 0 10px; }
+.register-title .gototop-area .button a {
+	text-align: center; display: block; font-size: 14px; font-size: 1.4rem;
+	background-color: #fff; border-radius: 2px; color: #3a428b;}
+.register-title .gototop-area .sub-text {color: #dddddd; font-size: 10px;}
+
+
+/*artist-list*/
+.artist-list-edit{padding: 0px; width: 94.2%;}
+.artist-list {overflow: hidden; padding: 3% 3% 0;}
+.artist-list>ul {overflow: hidden;}
+.artist-list>ul>.artist-box {
+	float: left; max-height: 314px; width: 47.95%; margin: 0 3.4% 3.4% 0; position: relative; overflow: hidden; border-radius: 2px;
+	border-radius: 2px; box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.08);
+}
+.artist-list>ul>.artist-box:nth-child(2n){margin-right: 0px;}
+.artist-list>ul>.artist-box a{width: 100%; min-height: 10px; display: inline-block;} 
+.artist-list>ul>.artist-box>.time {position:absolute; z-index: 3;top: 10px;left: 10px;border: 1px solid #ddd;border-radius: 4px;padding: 4px 6px;}
+.artist-list>ul>.artist-box>.checkbox {position:absolute; z-index: 3; float: right;}
+.artist-list>ul>.artist-box>.time {position:absolute;z-index: 3;}
+.artist-list>ul>.artist-box> .text {display: block; text-align: center; background-color: #fff; overflow: hidden; padding: 0 0 10px; margin: -2px 0 0;}
+.artist-list>ul>.artist-box> .text .name{font-size: 16px; font-size: 1.6rem; line-height: 1.1;  margin: 10px auto 8px; }
+.artist-list>ul>.artist-box> .text .button,section.search-result-artist div.artist-search-result span.text p.button{}
+
+/*=========アーティスト登録ボタン=========*/
+.button>span{
+width: 56%; border: 1px solid #dd0f00; color: #dd0f00; font-size: 12px; font-size: 1.2rem; border-radius: 4px; display: block;
+margin: 0 auto; min-height: 1px; padding: 2.8px 3px;
+-webkit-transition: all 0.2s linear; }
+.button .register-button{
+width: 56%; border: 1px solid #dd0f00; color: #dd0f00; font-size: 12px; font-size: 1.2rem; border-radius: 4px; display: block;
+margin: 0 auto; min-height: 1px; padding: 17px 3px;
+-webkit-transition: all 0.2s linear; }
+
+.button>span:hover, p.button span.register-button:hover{opacity:0.9;}
+.button .active,p.button span.active{
+	width: 74%; background-color: #dd0f00;  }
+
+p.button>.register-button{
+	background-image: url(../img/button/add_artist.png); background-repeat: no-repeat; background-position: center; background-size: 64px;
+	display: block; padding:15px 0; }
+.button .register-button.active{
+	background-image: url(../img/button/adding_artist.png); background-repeat: no-repeat; background-position: center; background-size: 60px; display: block;}
+
+/*検索結果　ボタン*/
+.search-result-artist .button>.register-button{padding: 18px 0;width: 46%;}
+.search-result-artist .button .active, p.button span.active{width: 68%;}
+
+/*=========[end]アーティスト登録ボタン=========*/
+
+.artist-list>ul>.artist-box>a .img {width: 100%; height: 10.4rem; display: block; overflow: hidden; border-radius: 2px 2px 0 0;}
+.artist-list>ul>.artist-box>a .img>img {width: 100%;}
+.artist-list>ul>.artist-box>a .img .nophoto-artist{
+	background-color: #bbb;
+	position: relative;
+	width: 100%;
+	height: 10.4rem;
+}
+.artist-list>ul>.artist-box>a .img .nophoto-artist p{
+	position: relative;
+	top: 44%;
+	left: 30%;
+	font-size: 18px;
+	font-size: 1.8rem;
+	color: #f2f2f2;
+}
+.artist-list>.next {text-align: center;text-align: center; margin: 20px auto 60px;width: 80%;}
+.artist-list>.next>.button-next {display: block; padding: 16px 10% 14px; background-color: #3a428b; color: #fff; font-size: 14px; font-size: 1.4rem;}
+.artist-list>.next>.blue-button{margin: 0 auto; width: 50%; padding: 12px 9%;}
+.artist-list>ul>.artist-box-added {float: left;height: 106px; width: 33.3333333%; position: relative; overflow: hidden;}
+
+.artist-list>ul>.artist-box-added>.added-layer-top {background-color: rgba(0,0,0,0.4); z-index: 999; text-align: center; position: absolute; cursor:pointer; width: 100%; cursor: pointer; }
+.artist-list>ul>.artist-box-added>.layer-top { z-index: 999; text-align: center; position: absolute;
+width: 100%; height: 100%; }
+.artist-list>ul>.artist-box-added>.added-layer-top>.added-mark {border: 1px solid #fff; width: 44%; height: 37px; border-radius: 400px; margin: 20px auto;
+padding: 17px 10% 10px;}
+.artist-list>ul>.artist-box-added>.added-layer-top>.added-mark>.check-icon {width: 70%; margin: 0 0 3px 0; }
+.artist-list>ul>.artist-box-added>.added-layer-top>.added-mark>p {font-size: 10px; font-size: 1.0rem; color: #fff;}
+.artist-list>ul>.artist-box-added>.text {position:absolute;z-index: 3;bottom: 10px;left: 10px; color: #fff;}
+.artist-list>ul>.artist-box-added>.img {position:absolute; z-index: 2;}
+.artist-list>ul>.artist-box-added>.img>img {width: 100%; }
+/*======== home ========*/
+.search-area {text-align: center; padding: 52px 0 33px; height: 140px;
+	background-image: url(../img/bg-img.jpg); background-position: 55% 26%; background-size: 154% auto;
+}
+.search-area>.search-area-bg1 {height: 142px;}
+.search-area>.search-area-bg1>.search-area-link {width: 84%; margin: 0 auto; padding: 12px 0 10px;}
+.search-area>.search-area-bg1>.search-area-link>a>h1 {color:#fff; font-size: 21px; font-size: 2.1rem; line-height: 1.3; letter-spacing: 0.4px; text-align: center; margin: 0 0 14px; -webkit-font-smoothing: antialiased;}
+.search-area>.search-area-bg1>.search-area-link>a>p {color: #3a428b; max-width: 400px; margin: 0 auto;
+	text-align: center; font-size: 14px; font-size: 1.4rem;
+padding: 9px 0 8px; background-color: #fff; border-radius: 2px; background-color: rgba(255,255,255,0.8);
+background-image: url(../img/basic/arrow_blue_wh.png); background-repeat: no-repeat; background-position: 78% center; background-size: 7px;}
+/*切り換えタブ*/
+.search-area>.search-area-tab {position: relative; bottom: 0; background-color: rgba(0,0,0,0.5); height: 30px;
+	background-image: url(../img/hamon.png); background-repeat: no-repeat; background-size: 743px; background-position: center 100%;}
+.search-area>.search-area-tab>ul {overflow: hidden;}
+.search-area>.search-area-tab>ul>.left {float: left;width: 50%;padding: 6px 0 7px;}
+.search-area>.search-area-tab>ul>.li>a{letter-spacing: 0.5px; }
+.search-area>.search-area-tab>ul>.left>a {display: block; color: #a39f9f; border-right: 1px solid #7c7d8c; height: 16px;}
+.search-area>.search-area-tab>ul>.left>a>span {text-align: center; font-size: 14px; font-size: 1.4rem;}
+.search-area>.search-area-tab>ul>.left>a>span>img {position: absolute;bottom: -10px;left: 45%;z-index: 99999;}
+.search-area>.search-area-tab>ul>.right {float: right;width: 50%;padding: 6px 0 2px;}
+.search-area>.search-area-tab>ul>.right>a {display: block; color: #a39f9f;}
+.search-area>.search-area-tab>ul>.right>a:hover{color: #fff;}
+.search-area>.search-area-tab>ul>.right>a>span {text-align: center; font-size: 14px; font-size: 1.4rem;}
+.search-area>.search-area-tab>ul>li.on{border-bottom: 2px solid #dd0f00; font-weight: bold}
+.search-area>.search-area-tab>ul>li.on>a{color: #fff;}
+.release-soon>.artist-list {padding-bottom: 30px; background-color: #efefef;}
+.release-soon>.artist-list>ul {overflow: hidden;}
+.release-soon>.artist-list>ul>.release-info-box {
+	width: 47.7%; height: 187px; margin-right: 4%; margin-bottom:14px;
+	float: left; position: relative; overflow: hidden; box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.08); border-radius: 2px;}
+	.release-soon>.artist-list>ul>.release-info-box:nth-child(2n){margin-right:0px;}
+.release-soon>.artist-list>ul>.release-info-box>.time {position:absolute;z-index: 3;top: 7px;left: 7px; background-color: #3a428b; padding: 5px;}
+.release-soon>.artist-list>ul>.release-info-box>.time>.month {color: #fff; font-size: 10px;text-align: center; line-height: 1.3; margin-bottom: -2px;}
+.release-soon>.artist-list>ul>.release-info-box>.time>.month>span {margin-right: -4px; font-weight: bold;}
+.release-soon>.artist-list>ul>.release-info-box>.time>.date {color: #fff; font-size: 10px; font-size:1.0rem;text-align: center;line-height: 1.1; letter-spacing: -1px;}
+.release-soon>.artist-list>ul>.release-info-box>.time>.date>span {font-size: 14px; font-size:1.4rem; font-weight: bold;margin-right: -2px;}
+.release-soon>.artist-list>ul>.release-info-box a .img {overflow: hidden; display: block; width: 100%; max-height: 137px;}
+.release-soon>.artist-list>ul>.release-info-box a .img>img {width: 100%; }
+
+.release-soon>.artist-list>ul>.release-info-box a .img .nophoto{
+overflow: hidden;
+display: block;
+width: 100%;
+height: 137px;
+}
+
+.release-soon>.artist-list>ul>.release-info-box a .img .nophoto p{
+color: #888;
+left: 32%;
+position: relative;
+font-size: 16px;
+top: 48%;
+}
+
+
+.release-soon>.artist-list>ul>.release-info-box>.text {
+	z-index: 3;bottom: 0px; left: 0px; padding: 4px 14px 7px; background-color: #fff; overflow:hidden;}
+.release-soon>.artist-list>ul>.release-info-box>.text>p a{
+	color: #444; font-weight: bold;}
+.release-soon>.artist-list>ul>.release-info-box>.text>.release-title {
+font-size: 13px; font-size: 1.3rem; text-align: center; max-height: 30px; overflow: hidden; letter-spacing: 0.6px; line-height: 1.1; margin-bottom: 1px; margin-top: 2px;}
+.release-soon>.artist-list>ul>.release-info-box>.text>.name {font-size: 10px; font-size: 1.0rem; text-align: center; letter-spacing: 0.6px;}
+.release-soon>.artist-list>ul>.release-info-box>.text>.name a{text-align: center;}
+.release-soon>p {margin: 0 0 20px;}
+
+/*======== search ========*/
+.search-area {text-align: center;}
+.search-area .search-wrap{width: 90%;margin: 0 auto;padding: 60px 0;}
+.search-area .search-wrap>h1 {}
+.search-area .search-wrap>form {}
+.search-area .search-wrap>form>.search-form {width: 100%;}
+
+/*==検索結果==*/
+/*新*/
+#tracks{width: 100%}
+section.search-result-artist {background-color: #eee; }
+section.search-result-artist div.artist-search-result { border-bottom:1px solid #ddd; padding:16px 0 30px;}
+section.search-result-artist div.artist-search-result span.img {
+	display: block; text-align: center; border-radius: 2px; margin: 0 auto 10px}
+section.search-result-artist div.artist-search-result span.img a{
+	border:2px solid #fff;display: block; width: 64.68%; margin: 0 auto; height: 120px; overflow: hidden;box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.1);}
+section.search-result-artist div.artist-search-result span.img a img {width: 100%;}
+section.search-result-artist div.artist-search-result span.text {display: block; text-align: center;}
+section.search-result-artist div.artist-search-result span.text p.name {font-size: 20px; margin:0 auto 10px;}
+
+.search-result {background-image: url(../img/hamon-search.png);}
+.search-result>.title-bar {border-top: 1px solid #d1d1d1; border-bottom: 1px solid #d1d1d1; background-color: #fff;}
+.search-result>.title-bar>h2 {width: 95.4%; margin: 0 auto;font-size: 12px; font-size: 1.2rem; padding:5px 0;}
+.artist-list>.artist-content {overflow: hidden; border-bottom: 1px solid #d1d1d1; background-color: #fff;}
+.artist-list>.artist-content>.artist-img {width: 25%; float: left; height: 80px; overflow: hidden;}
+.artist-list>.artist-content>.artist-img>img {width: 100%; min-height: 80px;}
+.artist-list>.artist-content>.artist-data {overflow: hidden;display: block;padding:20px 10px 0px 0;}
+.artist-list>.artist-content>.artist-data>.artist {float: left; width: 73%;}
+.artist-list>.artist-content>.artist-data>.button{float: right;}
+.artist-list>.artist-content>.artist-data>p>.artist-name {padding: 0px 20px; font-size: 14px; font-size: 1.4rem; -webkit-font-smoothing: antialiased display: block;}
+.artist-list>.artist-content>.artist-data>p>.add-button-off {border:2px solid #dd0f00; border-radius: 3px; float: right;}
+.artist-list>.artist-content>.artist-data>p>.add-button-off>a {
+background-image: url(../img/icon/add-icon.png);background-size: 29px;background-position: 35% center;height: 20px;padding: 12px 19px 0px 31px;display: block;background-repeat: no-repeat;
+}
+.artist-list>.artist-content>.artist-data>p>.add-button-on {background-color: #dd0f00; border-radius: 3px; float: right;}
+.artist-list>.artist-content>.artist-data>p>.add-button-on>a {
+background-image: url(../img/icon/add-icon-off.png);background-size: 29px;background-position: 75% center;height: 28px;padding: 8px 24px 0px 31px;display: block;background-repeat: no-repeat; cursor: pointer;
+}
+/*artist-edit-list*/
+.artist-edit-list{padding-bottom: 60px;}
+
+.home-search {margin: 0 auto 20px; padding: 52px 0 0px; background-color: #6c709b;}
+.home-search>h1 {margin: 15px 0 27px; font-size: 21px; font-size: 2.1rem; color: #fff; padding: 0 9%; -webkit-font-smoothing: antialiased;}
+.home-search>form {}
+.home-search>form>.search-form {background-image: url(../img/icon/search-grass.png); background-repeat: no-repeat;background-position: 14px center;background-size: 15px; border-radius: 36px;padding: 8px 12px 8px 32px; font-size: 12px; outline: none;}
+
+.search-result {}
+.search-result>.search-result-list-nothing {text-align: center;}
+.search-result>.search-result-list-nothing>.sinsakukun {padding: 48px 0 25px; }
+.search-result>.search-result-list-nothing>.sinsakukun>img {width: 88px;height: 88px;}
+.search-result>.search-result-list-nothing>p {font-size: 18px; font-weight: 1.8px; color: #b6b6b6; padding: 0 0 90px;}
+.search-result-nogthing .home-search{margin-bottom: 0;}
+
+/*======== artist ========*/
+.artist-top {width: 100%;font-size: 14px; font-size: 1.4rem;}
+.artist-top .artist-data {background-image: url(../img/bg-simple.jpg); background-position: 55% 26%; background-size: cover; padding: 52px 0 25px; margin:0 auto; text-align: center;}
+.artist-top .artist-data figure{width: 60%; height: auto; max-height: 160px; overflow: hidden; border: 2px solid #fff; border-radius: 2px; margin: 0 auto 10px }
+.artist-top .artist-data>figure>img{width: 100%;}
+
+.artist-top .artist-data figure.nophoto{
+height: 200px;
+background-color: #bbb;
+}
+
+.artist-top .artist-data figure.nophoto p{
+color: #f2f2f2;
+top: 42%;
+position: relative;
+font-size: 20px;}
+
+.artist-top .artist-data .artist-name {color: #fff; font-size: 24px; font-size: 2.4rem; letter-spacing: 0.4px; text-align: center; margin: 0 auto 3px;}
+.artist-top .artist-data .added-number {color: #c6c6c6; font-size: 12px; font-size: 1.2rem; margin: 0 auto 10px;}
+.artist-top .artist-data .added-number .number {}
+.artist-top .artist-data .register-button{width: 46%; padding: 18px 0; background-color: #fff; background-color: rgba(255,255,255,0.8)}
+.artist-top .artist-data .register-button.active{width: 68%; background-color:#dd0f00;}
+
+.artist-works {margin: 0 0 30px;}
+.artist-works>.works-list {margin-top: 20px;}
+.artist-works>.works-list>.work {overflow: hidden; margin: 0 0 30px;}
+.artist-works>.works-list>.work>.jacket {width: 72.3%; width:280px; max-height: 280px; margin: 0 auto 14px; overflow: hidden;}
+.artist-works>.works-list>.work>.jacket>img {width: 100%; height: auto;}
+.artist-works>.works-list>.work>.jacket .nophoto-jacket {background-color: #ddd; position: relative; width: 280px; height: 280px;}
+.artist-works>.works-list>.work>.jacket .nophoto-jacket p{position: relative; top: 48%; left: 35%;
+font-size: 20px; font-size: 2.0rem; color: #888;}
+.artist-works>.works-list>.work>.work-info {width: 72.3%; width: 280px; margin: 0 auto 10px; overflow: hidden;}
+.artist-works>.works-list>.work>.work-info>.work-name {float: left; font-size: 26px; font-size: 2.6rem;}
+.artist-works>.works-list>.work>.work-info>.release-date {float: right; text-align: right; line-height: 1.1; }
+.artist-works>.works-list>.work>.work-info>.release-date>.month {color: #dd0f00; font-size: 14px; font-size: 1.4rem; float: left;}
+.artist-works>.works-list>.work>.work-info>.release-date>.month>span {font-weight: bold; font-size: 20px; font-size: 2.0rem;}
+.artist-works>.works-list>.work>.work-info>.release-date>.date {color: #dd0f00; font-size: 14px; font-size: 1.4rem;  float: left;}
+.artist-works>.works-list>.work>.work-info>.release-date>.date>span {font-weight: bold; font-size: 20px; font-size: 2.0rem;}
+.artist-works>.works-list>.work>.work-info>.release-date>p {color: #dd0f00; font-size: 14px; font-size: 1.4rem;}
+.artist-works>.works-list>.work>.link-area {width: 72.3%; width:280px; margin: 0 auto; }
+.artist-works>.works-list>.work>.link-area>.amazon-button {
+	display: block; background-color:#3a4486; border-radius: 4px; padding: 16px 16px 14px 36px; font-size: 14px; font-size: 1.4rem; text-align: center; color: #fff;
+    background-image: url(../img/icon/otherpage.png); background-repeat: no-repeat; background-position: 20% center; background-size: 16px;}
+.artist-works>.works-list>.work>.link-area>.amazon-button:hover{opacity: 0.9;}
+.artist-works>.works-list>.work>.link-area>.social-button{overflow: hidden; margin: 10px auto;}
+.social-button span {overflow: hidden; float: left; font-size: 14px; padding: 8px 0 4px; margin: 0 2% 0 0;}
+.social-button>.facebook-button {
+	width: 18%; float: left; border: 1px solid #3b5998; border-radius: 4px; padding: 16px 20px 14px; margin: 0 2% 0 0; font-size: 14px; font-size: 1.4rem; display: block; text-align: center; color: #fff; text-align: center;
+    background-image: url(../img/icon/fb.png); background-repeat: no-repeat; background-position: center 50%;
+}
+.social-button>.facebook-button:hover{
+	background-image: url(../img/icon/fb_wh.png); color: #fff; background-color: #3b5998;}
+.social-button>.twitter-button {
+	width: 18%; float: left; padding: 16px 20px 14px; border: 1px solid #5ea9dd; border-radius: 4px;font-size: 14px; font-size: 1.4rem; display: block; text-align: center; color: #fff; text-align: center;
+    background-image: url(../img/icon/tw.png); background-repeat: no-repeat; background-position: center 50%;
+    }
+.social-button>.twitter-button:hover{
+ 	background-image: url(../img/icon/tw_wh.png); color: #fff; background-color: #5ea9dd;}
+
+/*======== profile ========*/
+.profile-info>.profile-info-wrap {width: 100%; margin: 0 auto; overflow: hidden; position: relative;padding: 52px 0 10px; background-color: #4c4d53;}
+.profile-info>.profile-info-wrap .profile-edit{ display: none; position: absolute; top: 24px; right: 14px; }
+.profile-info>.profile-info-wrap .profile-edit .edit-icon{padding: 10px 21px; border:1px solid #bbb; border-radius: 10px;
+ background-image: url(../img/icon/setting_wh.png); background-repeat: no-repeat; background-position: center; background-size: 14px;}
+ .profile-info>.profile-info-wrap .profile-edit .edit-icon:hover{background-color: rgba(255,255,255,0.4); background-image: url(../img/icon/setting_blue.png);  }
+.profile-info>.profile-info-wrap>.user-img {border-radius: 100px; width: 80px; height: 80px; border:2px solid #fff; overflow: hidden; margin: 0 auto;}
+.profile-info>.profile-info-wrap>.user-img>img {width: 100%; height: auto;}
+.profile-info>.profile-info-wrap>.user-info {color:#fff; text-align: center; margin: 0px auto; padding:10px 0 8px 10px;}
+.profile-info>.profile-info-wrap>.user-info>.user-name {font-size: 18px; font-size: 1.8rem; font-weight: bold;}
+.profile-info>.profile-info-wrap>.user-info>.register-number {font-size: 13px; font-size: 1.3rem; margin-top: -2px;}
+.profile-info>.profile-info-wrap>.user-info>.register-number>.number {
+	color: #fff; font-size: 22px; font-size: 2.2rem; font-weight: bold; margin: 0 0 0 10px; }
+
+.profile-share {
+	text-align: center; border-bottom: 1px solid #d7d8de; background-color: #ddd;
+	margin: 0 auto; padding: 10px 0 0;}
+.profile-share>.social-button{overflow: hidden; padding: 0 6%;}
+.profile-share>a {padding: 10px; color: #3a428b; display: block;
+background-image: url(../img/icon/button_arrow.png); background-repeat: no-repeat; background-position: 50% 90%;}
+.profile-share>a>p {font-size: 12px; font-size: 1.2rem; font-weight: bold;}
+
+/*シェアボタン*/
+.profile-share .entypo-export span{font-size: 14px;.font-size: 1.4rem; }
+.share-button.share-button-top.sharer-0 .social ul li{font-size: 20px;
+cursor: pointer;
+width: 60px;
+margin: 0;
+padding: 12px 0;
+text-align: center;
+float: left;
+display: block;
+height: 22px;
+position: relative;
+z-index: 2;
+-webkit-box-sizing: content-box;
+-moz-box-sizing: content-box;
+box-sizing: content-box;
+-webkit-transition: all .3s ease;
+transition: all .3s ease;}
+.share-button.share-button-top.sharer-0 .social ul li.entypo-twitter {background: #6cdfea;
+padding: 12px 0; top: 30%; margin: 0 auto 20px; width: 100%; height: 27px; border-radius: 2px;}
+.share-button.share-button-top.sharer-0 .social ul li.entypo-facebook {background:#3b5998;
+padding: 12px 0; top: 30%; margin: 0 auto 20px; width: 100%; height: 27px; border-radius: 2px;}
+.share-button.share-button-top.sharer-0 .social ul{overflow: hidden; position: relative;
+top: 30%; max-width: 240px; margin: 0 auto; text-align: center;}
+.profile-share {
+}
+.profile-share>.share-button.share-button-top.sharer-0 {
+border-radius: 4px; border: 1px solid #3a428b; width: 60%; margin: 0px auto;
+}
+.profile-share>.share-button.share-button-top.sharer-0>.entypo-export {
+	display: block; padding: 9px 0; cursor: pointer; }
+.profile-share>.share-button.share-button-top.sharer-0>.entypo-export>span {
+}
+.profile-share>.divider{height:1px; width: 92%; margin: 10px auto 0; background-color: #cecfd5;}
+
+.share-button.share-button-top.sharer-0 .social{display: none;-webkit-transition: all .3s ease;
+transition: all .3s ease;}
+.share-button.share-button-top.sharer-0 .active{display: block;
+width: 100%;height: 100%;position: absolute;background-color: rgba(0,0,0,0.2);z-index: 9999;top: 0%;}
+
+.register-artist>.title-bar>.artist-edit{float: right; }
+.register-artist>.title-bar>.artist-edit a{font-size: 12px; font-size: 1.2rem; padding: 8px 25px 5px; display: block; background-color: #d4d5e0; background-image: url(../img/basic/button_arrow.png);
+background-repeat: no-repeat; background-size: 8px; background-position: 90% center;}
+.profile-info>div {overflow: hidden;}
+.profile-info>div>.user-info>.user-name {}
+.profile-info>div>.user-info>.register-number {font-size: 12px;}
+.profile-info>div>.user-info>.register-number>.number {font-size: 16px;}
+.profile-info>.profile-edit{}
+.profile-edit>.button-edit {text-align:center; padding:10px 10%; }
+
+.list-top {border-bottom: 1px solid #cfd0d5;}
+.list-top>div>p {font-size: 12px; font-size: 1.2rem; float: left; background-image: url(../img/basic/button_arrow_left.png); background-size: 8px; background-position: 8% center; background-repeat: no-repeat; background-position: 2% center;}
+.list-top>div>p>a {padding: 15px 0 15px 20px; display: block; font-weight: bold;color: #494285;}
+.list-top>div>h1 {padding: 15px 0; margin-right:20px; font-size: 12px; font-size: 1.2rem; font-weight: bold; text-align: center;}
+
+/*======== footer ========*/
+footer{display: block; padding-bottom: 50px; background-color: #ddd;}
+footer .footer-wrap {
+border-top:1px solid #3a428b; text-align: center;}
+footer .footer-wrap .footer-menu {overflow: hidden; width: 97%; max-width: 400px; margin: 30px auto;}
+footer .footer-wrap .footer-menu li{margin: 0 3%; padding:10px 0;}
+footer .footer-wrap .footer-menu li a{display: block; color: #6169b1; font-size: 14px; font-size: 1.4rem;}
+footer .footer-wrap .footer-menu li a:hover{opacity: 0.9;}
+.footer-wrap .logo-type {display: block; margin: 0 auto; }
+.footer-wrap .logo-type a{text-align: center;}
+.footer-wrap .logo-type a img{}
+.footer-wrap>.copyright {color: #b0b3d1; padding: 0 0 10px;}

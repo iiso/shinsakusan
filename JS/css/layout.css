@@ -1,0 +1,129 @@
+/*
+* Skeleton V1.1
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 8/17/2011
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+body { background: #f3f3f3;}
+.container { background: #fff; margin: 15px auto; border: 1px solid #ebebeb;}
+.hide { display:none;}
+a:hover { text-decoration:none;}
+p.ajax-message { padding:10px; text-align: center;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;}
+p.ajax-message.flash_good { background: #e5f2be; border:1px solid #bedf5d;}
+ul.flash_bad, p.ajax-message.flash_bad { background: #eccecf; border:1px solid #9e0b0f;}
+ul.flash_bad { padding: 15px 15px 0 15px;}
+
+#header h1 { margin-top: 15px;}
+#header ul { background:#f9f9f9; margin-top:15px;}
+	#header ul li { display:inline;}
+	#header ul li a { display:inline-block; padding:5px; font-weight:bold;}
+	#header ul li a:hover { background:#333; color:#fff;}
+#search_div form { width:330px; margin: 0 auto;}
+
+#search { background: #f9f9f9; padding: 15px 15px 0 30px;}
+#search legend { display:none;}
+#search input { margin-bottom:0px; display:inline-block;}
+#search .input { margin-bottom:15px;}
+#search label { display:inline-block; width: 80px;}
+
+.ui-autocomplete li a { font-size:10px;}
+
+table { width:100%; border:1px solid #ccc;}
+	table thead th { text-align:left; font-weight:bold; background:#333; color:#fff;}
+	table thead th,
+	table tbody td { padding:5px;}
+	table tbody tr.even td { background:#e1e1e1;}
+	table thead th.request,
+	table tbody td.request { text-align:right;}
+	table tbody tr.even:hover td { background:#d7d7d7;}
+	table tbody tr.odd:hover td { background:#ebebeb;}
+	
+#videoDiv { text-align:center; margin:0 auto;}
+
+#artist_images { margin-top:15px; width:100%; overflow: hidden;}
+#artist_images a { float:left; margin:0 5px 5px 0;}
+#artist_images a img { display:block;}
+	
+#tablePagination { padding: 15px 0 0 0; font-size:12px; font-height:12px;}
+#tablePagination #tablePagination_perPage { float:left; width:50%;}
+#tablePagination #tablePagination_perPage select { display:inline; margin-right:10px;}
+#tablePagination #tablePagination_paginater { float:right;}
+#tablePagination #tablePagination_paginater img {}
+#tablePagination #tablePagination_paginater input { font-size:12px; text-align:right;}
+
+/* #Page Styles
+================================================== */
+.ajax_loader { }
+table#tracks { display:none; margin-bottom: 15px;}
+#most-requested-tracks { margin-bottom: 15px;}
+#footer { background: #333; text-align:center; margin-bottom: 15px;}
+	#footer p { color: #fff; padding: 5px; margin:0; font-size:12px; font-weight:bold;}
+	#footer a { color: #00AEEF;}
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		h1 { font-size:30px;}
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		h1 { font-size:20px; line-height: 22px;}
+		h2 { font-size:18px; line-height: 20px;}
+		#tablePagination #tablePagination_perPage select { width: 100px;}
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		h1 { font-size:20px; line-height: 22px;}
+		h2 { font-size:18px; line-height: 20px;}
+		
+		#search_div form { width:auto;}
+		#search label { display:block;}
+		
+		table { font-size:12px;}
+		
+		#tablePagination #tablePagination_perPage select { width: 50px;}
+	}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/

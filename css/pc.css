@@ -1,0 +1,420 @@
+@media screen and (min-width: 769px) {
+.sp-sv{display: none;}
+.register-top, .profile-info, .home, .register-fb,.register-search,.register-finish{padding: 34px 0 0px;}
+.navigation{bottom:auto;top:0;}
+/*lp*/
+.lp-top .top-wrap{
+width:1036px;
+margin:0 auto;
+}
+
+.lp-top .top-wrap .head{
+margin:0 0 25px;}
+
+.lp-top .top-wrap .contents-wrap .copy{
+float:left;
+width: 520px;
+position: relative;
+top: 55px;
+}
+
+.lp-top .top-wrap .contents-wrap .copy p{
+font-size:18px;
+font-size:1.8rem;
+margin: 0 0 42px;
+}
+
+.lp-top .top-wrap .contents-wrap .copy .main-text{
+	width: 100%;
+	font-size:42px;
+	margin: 0 0 20px;
+	text-align: left;
+}
+
+.lp-top .top-wrap .contents-wrap .copy .main-text br{
+display:none;
+}
+
+.lp-top .top-wrap .contents-wrap .copy .fbloginlp-button{
+width:100%;
+font-weight:bold;
+}
+
+.lp-top .top-wrap .contents-wrap figure{
+width:490px;
+float: right;
+}
+
+.lp-top .top-wrap .contents-wrap figure img{
+top: auto;
+margin-left: 50px;
+}
+
+.lp-merit1{
+width: 1036px;
+margin: 0 auto;
+padding: 40px 0 26px;
+}
+
+.lp-merit1 .right{
+float: right;
+width: 535px
+}
+
+.lp-merit1 .right h2{
+text-align: left;
+margin: 30px 0 16px;
+}
+
+.lp-merit1 .right h2 br{
+display:none;
+}
+
+.lp-merit1 .right p{
+width: 476px;
+margin: 0;
+text-align: left;
+}
+
+.lp-merit1 .left{
+float: left;
+}
+
+.lp-merit1 .left figure{
+width: 317px;
+margin-left: 100px;
+}
+
+.lp .lp-merit2{
+padding: 20px 0 0;
+}
+
+.lp .lp-merit2 p{
+width: 932px;
+margin: 0 auto 40px;
+}
+
+.lp .lp-merit2 p br{
+display:block;
+}
+
+.lp .lp-merit2 h2 br{
+display:none;}
+
+.lp .lp-merit2 .row{
+width: 925px;
+margin: 0 auto;
+}
+
+.lp .lp-merit2 .row .feature1{
+overflow: hidden;
+float: left;
+margin: 66px 0 0;
+}
+
+.lp .lp-merit2 .row .feature1 .text{
+text-align:right;
+float:left;
+}
+
+.lp .lp-merit2 .row .feature1 hr{
+width: 83px;
+float: left;
+display:block;
+margin: 12px 0px 0 14px;
+border: none;
+height: 1px;
+background-color: #3a4486;
+}
+
+.lp .lp-merit2 .row .feature1 .text p{
+margin: 0;
+width: 100%;
+}
+
+.lp .lp-merit2 .row .feature2{
+float: left;
+bottom: auto;
+margin: 0 14px;
+}
+
+.lp .lp-merit2 .row .feature2 img{
+width:234px;
+}
+
+.lp .lp-merit2 .row .feature3{
+overflow: hidden;
+float: left;
+bottom: auto;
+margin: 106px 0 0;
+}
+
+.lp .lp-merit2 .row .feature3 .text{
+float:left;}
+
+.lp .lp-merit2 .row .feature3 hr{
+width: 82px;
+margin: 12px 14px 0 0px;
+display:block;
+float:left;
+text-align:left;
+border: none;
+height: 1px;
+background-color: #3a4486;
+}
+
+.lp .lp-merit2 .row .feature3 .text p{
+width: 240px;
+text-align: left;
+}
+
+
+.lp .lp-merit2 .row .feature3 .text{
+text-align: left;
+}
+
+.lp .lp-notificate .lp-subtitle h2{
+margin-top:40px;
+}
+
+.lp .lp-notificate .lp-subtitle h2 br{
+display:block;
+}
+
+.lp .lp-notificate>ul{
+width:1036px;
+}
+
+.lp>.lp-top>.copy{width: 78%}
+.lp>.lp-top>.copy>.fbloginlp-button{width: 500px; padding:26px 0;}
+.lp>.lp-notificate>ul>.features{width: 31.3333333333%; margin: 0 1% 30px; float: left;}
+.fbloginlp-button{width: 505px; margin: 0 auto; box-shadow: 1px 1px 3px #666;}
+.lp>.lp-start>.lp-start-wrap{padding: 30px; width: 60%;}
+.lp>.lp-start>.lp-start-wrap>.fbloginlp-button{width: 400px;}
+.lp>.lp-top>.head>.service-title{ position: relative; float: left; margin: 30px 0 0; font-size: 14px; font-size: 1.4rem; top: 0; left: 0;}
+/*register*/
+.register-finish {
+min-height: auto;
+background-color: #fff;}
+
+.register-fb .navigation>.nav-wrap,.register-search .navigation>.nav-wrap, .register-finish .navigation>.nav-wrap{width: 960px; margin: 0 auto; overflow:hidden;}
+.navigation>.nav-wrap>.nav-register>.back>a{padding: 14px 1% 14px 30px;}
+.register-top{width: 460px; padding: 12px 0 0;}
+.register-top>.logo{display: block; float: left;}
+.register-top>.steps{margin: 20px auto; width: 270px; letter-spacing: 1px;}
+.register-top>.steps>ul>.step{font-size: 14px; font-size: 1.4rem;}
+.register-top>.steps>ul>.on{font-size: 14px; font-size: 1.4rem;}
+.register-top>.steps>ul>.arrow{padding: 7px 0 0 ;}
+.register-title{width: 460px;margin: 30px auto 30px;float: none;padding: 38px 60px;}
+.register-fb .register-title{ border-bottom: 1px solid #ddd; margin-bottom:20px;}
+.register-title>.catch{font-size: 2.4rem;font-size: 24px; }
+.register-title>.text-step{font-size: 16px;font-size: 1.6rem;letter-spacing: 0.6px; margin-bottom: 10px;}
+.register-fb .register-artist>.title-bar>h2{display: none;}
+.register-fb .register-artist>.title-bar>a{float: none; padding: 10px 10px 8px; display: block; margin: 0 auto;}
+.register-fb .register-artist>.title-bar>a:hover{background-color: #3a428b; color: #fff;}
+.artist-list>.next>.button-next{font-size: 14px; font-size: 1.4rem;}
+.artist-list>.next>.button-next:hover{background-color: #3a428b; color: #fff;}
+.register-title>form{margin-top: 14px;}
+.register-title>.finish-button{margin: 20px auto 0; padding: 12px 60px 12px;}
+
+/*登録 検索*/
+.register-search .register-title{margin-bottom:0px;}
+.register-title-search{width: 560px; margin: 0 auto; border-radius: 0px 0px 4px 4px;}
+.search-result-artist{width: 580px; margin: 0 auto;}
+.search-result-artist .artist-search-result .img a{height:160px!important;}
+.search-result-artist .artist-search-result{}
+.artist-list>ul>.artist-box> .text .button>.register-button{
+	padding: 15px 0; width: 52%;}
+.artist-list>ul>.artist-box> .text .button>.register-button.active{width:67%;}
+
+/*検索結果*/
+#tracks{margin: 0 auto 45px;
+width: 580px;}
+section.search-result-artist div.artist-search-result span.img>a!important{width: 43.8%; width: 140px;}
+section.search-result-artist div.artist-search-result span.text p.button span.register-button{
+	padding: 18px 0; width: 36%;}
+section.search-result-artist div.artist-search-result span.text p.button span.active{width: 48%; padding: 18px 0;}
+.search-result-artist .artist-search-result .img a{height:160px;}
+.search-result-artist .artist-search-result{}
+.search-result-artist .artist-search-result .text .name{font-size: 24px; font-size: 2.4rem;}
+/*登録ボタン*/
+ .artist-list>ul>.artist-box> .text .button .active .add-button-off{padding: 17px 0;}
+
+
+.navigation>.nav-wrap>.nav-static{width: 960px; margin: 0 auto; height: 45px;}
+.navigation>.nav-wrap>.nav-static>.home{background-position: center 48%; padding: 0; width: 130px;}
+.navigation>.nav-wrap>.nav-static>.home>a{padding:22px 25px 23px; background-position: 0% center; }
+.navigation>.nav-wrap>.nav-static>.home>a>span.sp{display: none;}
+.navigation>.nav-wrap>.nav-static>.home>a>span.pc{display:block;position: absolute; width: 100px; top: 17px;font-size: 12px;font-size: 1.2rem; color:#656465; padding: 0 0 0 8px;}
+.navigation>.nav-wrap>.nav-static>.search{position: absolute;left: 77%; top: 0%; background: none;
+ width: 104px; border-right: 1px solid #ddd; border-left: 1px solid #ddd;}
+.navigation>.nav-wrap>.nav-static>.search a{
+	padding: 0px; padding:14px 0px 14px 16px; background-position: 14px 13.5px; background-size: 18px 17px;}
+.navigation>.nav-wrap>.nav-static>.profile{position: absolute;left: 89%; top: 0%;
+	background: none; width: 97px; border-right: 1px solid #ddd;}
+.navigation>.nav-wrap>.nav-static>.profile a{
+	padding: 14px 0px 14px 9px; background-position: 3px 14px; background-size: 17px 17px;}
+.navigation>.nav-wrap>.nav-static>.edit{position: absolute;left: 80%; top: 0%; padding:14px 0 0;}
+
+.navigation>.nav-wrap>.nav-register-fb {position: relative;}
+.navigation>.nav-wrap>.nav-register-fb>.back {position: relative; left: 10%; }
+.navigation>.nav-wrap>.nav-register-fb>.back>a {}
+.navigation>.nav-wrap>.nav-register-fb>.logo {position: relative; left: 50%; }
+.navigation>.nav-wrap>.nav-register-fb>.logo>a {}
+.navigation>.nav-wrap>.nav-register-fb>.next {position: relative; left: 90%;}
+.navigation>.nav-wrap>.nav-register-fb>.next>a {}
+
+/*top*/
+.search-area{height:228px; margin-top:-45px; padding-top: 79px; padding-bottom: 0px; background-size: cover;}
+.search-area>.search-area-bg1{padding-bottom: 50px}
+.search-area>.search-area-bg1>.search-area-link{width: 660px; margin: 0 auto; padding:0px;}
+.search-area>.search-area-bg1>.search-area-link a{padding: 30px 35px; display: block; -webkit-transition: all 0.3s linear;}
+.search-area>.search-area-bg1>.search-area-link a:hover{background-color: rgba(255,255,255,0.1)}
+.search-area>.search-area-bg1>.search-area-link a:hover>p{color: #fff; background-color: #3a428b; background-image: url(../img/basic/button_arrow.png);}
+.search-area>.search-area-bg1>.search-area-link>a>h1{font-size: 24px; font-size: 2.4rem;}
+.search-area>.search-area-bg1>.search-area-link>a>p{background-position: 69% 52%; background-size: 8px;}
+.search-area>.search-area-bg1>.search-area-tab{height:auto; margin: 35px 0 0;}
+.search-area>.search-area-bg1>.search-area-tab>ul{width: 960px; margin: 0 auto;}
+.search-area>.search-area-bg1>.search-area-tab>ul>.right, .search-area>.search-area-bg1>.search-area-tab>ul>.left{width: 175px; padding: 14px 0 14px;}
+.search-area>.search-area-bg1>.search-area-tab>ul>.right{left: 175px; position: relative; float: none;}
+.search-area>.search-area-bg1>.search-area-tab>ul>.right>a>span:hover{color: #fff;}
+.search-area>.search-area-bg1>.search-area-tab>ul>li.on{width: 175px; padding-bottom: 16px}
+
+.search-area>.search-area-tab{height: 35px;
+background-size: 1103px; background-repeat: repeat-x; background-color: rgba(0,0,0,0.4);}
+.search-area>.search-area-tab>ul>li{padding:8px 0 10px!important;}
+.search-area>.search-area-tab>ul>li.on{padding-bottom: 10px!important;}
+
+.list-top>div>h1{font-size: 18px; font-size: 1.8rem;}
+.artist-list-edit{background-image: url(../img/hamon-search.png); padding: 30px 0;}
+.artist-list{background-image: url(../img/hamon-search.png);}
+.home .artist-list{background-image: none;}
+.release-soon>.artist-list>ul>.release-info-box{margin: 0 20px 20px 0; width: 225px; height: 294px; overflow: hidden;}
+.release-soon>.artist-list>ul>.release-info-box:nth-child(4n){margin-right:0px;}
+.release-soon>.artist-list>ul>.release-info-box a .img{height: 225px; max-height: 260px;}
+
+.release-soon>.artist-list>ul>.release-info-box a .img .nophoto{
+height: 260px;
+}
+
+.release-soon>.artist-list>ul>.release-info-box a .img .nophoto p{
+top: 43%;
+left: 31%;
+}
+
+.release-soon>.artist-list>ul>.release-info-box>.time>.month{margin-bottom: -5px;}
+.release-soon>.artist-list>ul>.release-info-box>.time>.month>span{font-size: 16px; font-size: 1.6rem; margin-bottom: -6px;}
+.release-soon>.artist-list>ul>.release-info-box>.time>.date>span{font-size: 26px; font-size: 2.6rem; -webkit-font-smoothing: antialiased;}
+.release-soon>.artist-list>ul>.release-info-box>.text{height:62px;}
+.release-soon>.artist-list>ul>.release-info-box>.text>.release-title{font-size: 16px; font-size: 1.6rem; max-height: 40px; margin-bottom: 7px;}
+.release-soon>.artist-list>ul>.release-info-box>.text>.release-title a{}
+.release-soon>.artist-list>ul>.release-info-box>.text>.name{font-size:12px;font-size: 1.2rem; text-align: center;}
+.release-soon>.artist-list>ul>.release-info-box>.text>.name a{color: #666; font-weight: normal;}
+
+.more-reading{margin-top: 36px;}
+
+/*profile*/
+.profile-info{padding: 45px 0 0; margin: 0 auto 20px; }
+.profile-info>.profile-info-wrap{padding: 30px 0 15px; width: 580px; margin: 20px auto 0px; border-radius: 4px;}
+.profile-info>.profile-info-wrap>.user-info{margin: 0 auto;}
+.profile-info>.profile-info-wrap>.user-img{width: 80px; height: 80px; }
+.profile-info>.profile-info-wrap>.user-img>img{width: 80px; height: auto;}
+.profile-info>.profile-info-wrap>.user-info>.user-name{font-size: 24px; font-size: 2.4rem; -webkit-font-smoothing: antialiased;}
+.profile-share{width: 578px; margin: 0px auto 20px; border-radius: 0px 0px 4px 4px; border: 1px solid #ccc; padding: 7px 0; background-color: #fff;}
+.profile-share>.divider{display: none;}
+.profile-share>.share-button.share-button-top.sharer-0{width:380px;}
+.register-artist{width: 580px; margin: 0 auto 40px; border-radius: 4px;}
+.register-artist>.artist-list{background: none}
+.register-artist>.title-bar{text-align: center; border:none; width: 88.2%;}
+.register-artist>.title-bar>h2 {font-size: 14px; font-size: 1.4rem; color: #666666; -webkit-font-smoothing: antialiased; float: none; margin: 10px 0 0px;}
+.register-artist>.title-bar>.artist-edit{float: none;margin: 0 auto; }
+.register-artist>.title-bar>.artist-edit>a{padding: 10px 64px 10px; display: block; width: 80px; margin: 0 auto;}
+.register-artist>.title-bar>.artist-edit>a:hover{background-color: #ddd}
+
+.artist-list>ul{width:510px; margin:0 auto;}
+.artist-list>ul>.artist-box,.artist-list>ul>.artist-box-added{margin: 0 3% 3% 0; overflow: hidden; width: 48.5%;}
+.artist-list>ul>.artist-box:nth-child(4n),.artist-list>ul>.artist-box-added:nth-child(4n){margin-right: 0px;}
+.artist-list>ul>.artist-box>.text,.artist-list>ul>.artist-box-added>.text{font-size: 20px; font-size: 2.0rem; -webkit-font-smoothing: antialiased;}
+.artist-list>ul>.artist-box-added>.added-layer-top{width: 225px; height: 225px;}
+.artist-list>ul>.artist-box-added>.added-layer-top>.added-mark{margin: 48px auto;padding: 17px 30px 10px;width: 70px;height: 100px;}
+.artist-list>ul>.artist-box-added>.added-layer-top>.added-mark>.check-icon{margin: 23px 0 12px 0;}
+.artist-list>ul>.artist-box-added>.added-layer-top>.added-mark>p{font-size: 14px;font-size: 1.4rem;}
+.artist-list>ul>.artist-box>a .text .name{}
+/*buttonホバー  .button .add-button-on,*/
+section.search-result-artist div.artist-search-result span.text p.button{
+	 background-size: 70px!important; display: block; padding:10px 0;}
+	.button .active .add-button-on, section.search-result-artist div.artist-search-result span.text p.button .active{
+	 background-size: 64px!important;}
+
+.artist-list>ul>.artist-box>a .img{height:160px;}
+.artist-list>ul>.artist-box>a .img .nophoto-artist{height: 17.4rem;}
+.artist-list>ul>.artist-box>a .img .nophoto-artist p{left:35%;}
+.artist-list>ul>.artist-box a{display: inline-block;}
+.artist-list>ul>.artist-box a:hover{background-color:rgba(65,76,150,0.4);}
+
+/*artist-edit*/
+.list-top{padding: 45px 0 0; }
+.list-top>div{width: 960px; margin: 0 auto;}
+.list-top>div>p {font-size: 14px;}
+.list-top>div>p>a{padding: 20px 0 15px 20px;}
+
+.artist-edit-list .artist-list>.artist-content{float: left;width: 50%;}
+.artist-edit-list .artist-list>.artist-content>.artist-data{padding: 30px 30px 0px 0;}
+.artist-edit-list .artist-list>.artist-content>.artist-img>img{min-height: 160px;}
+.artist-edit-list .artist-list{padding-top: 0px;}
+
+/*search*/
+.home-search{margin: 75px auto 30px; width: 580px; margin-bottom: 20px!important; border-radius: 4px;}
+.search-result{padding-bottom: 60px;}
+.search-result>.title-bar>h2{width: 960px; font-weight: bold;}
+.artist-list>.artist-content>.artist-img{width: 160px; height: 160px;}
+.artist-list>.artist-content>.artist-img>img{min-height: 160px;}
+.artist-list>.artist-content>.artist-data>p>.artist-name{font-size: 20px; font-size: 2.0rem;}
+.artist-list>.artist-content>.artist-data {padding: 0px; }
+/*アーティスト アーティストinfo*/
+.artist-top{width: 100%; background-color: #ddd; background-size: 300px auto; border-radius:4px;}
+.artist-top>.artist-data{padding: 82px 0 25px;}
+.artist-top .artist-data figure{width: 20%; max-height: 140px;}
+ /*ボタン*/
+ .artist-top .artist-data .register-button{width:16%;}
+ .artist-top .artist-data .register-button.active{width: 20%;}
+.artist-top>.artist-data>.left,.artist-top>.artist-data>.right{float: none; width: 180px;}
+.artist-top>.artist-data>.right>.add-button2-off>a{padding:10px 34px 10px 64px; background-position: 28%;}
+/*アーティスト　新作一覧*/
+.artist-works>.works-list{overflow: hidden; width: 580px; margin: 20px auto 0;}
+.artist-works>.works-list>.work,.artist-works>.works-list>.work>.jacket,.artist-works>.works-list>.work>.work-info,.artist-works>.works-list>.work>.link-area{
+	width: 270px;}
+.artist-works>.works-list>.work{float: left; overflow: hidden; margin: 0 4% 30px 0;}
+.artist-works>.works-list>.work:nth-child(2n){margin-right:0px;}
+.artist-works>.works-list>.work>.work-info>.work-name{font-size: 1.8rem; line-height: 1.4; width: 73%;}
+.artist-works>.works-list>.work>.jacket{max-height: 270px;}
+.artist-works>.works-list>.work>.work-info>.release-date{width: 24%;}
+.artist-works>.works-list>.work>.work-info>.release-date>.month{font-size: 12px; font-size: 1.2rem;}
+.artist-works>.works-list>.work>.work-info>.release-date>.month>span{font-size: 18px; font-size: 1.8rem;}
+.artist-works>.works-list>.work>.work-info>.release-date>.date{font-size: 12px; font-size: 1.2rem;}
+.artist-works>.works-list>.work>.work-info>.release-date>.date>span{font-size: 18px; font-size: 1.8rem;}
+.artist-works>.works-list>.work>.link-area>.social-button>.twitter-button,.artist-works>.works-list>.work>.link-area>.social-button>.facebook-button{
+	width: 16.5%;
+}
+.artist-top>.artist-data>.left>.artist-name{font-size: 28px;font-size: 2.8rem;}
+.artist-top>.artist-data>.left>.artist-name,.artist-top>.artist-data>.left>.added-number{color: #444; text-shadow:none;}
+/*footer*/
+footer{display: block; padding-bottom:0; background-color: #fff;}
+}
+footer>.footer-wrap {text-align: center;
+}
+footer .footer-wrap .footer-menu {width: 90%;}
+footer .footer-wrap .footer-menu li{margin: 0 6%; float: left;}
+/*Android*/
+@media screen and (max-width: 768px) and (min-width: 440px) {
+.search-area {background-size: 109% auto;}
+.artist-list>ul>.artist-box>a .img{height: 14rem;}
+.artist-list>ul>.artist-box> .text .button .add-button-on, section.search-result-artist div.artist-search-result span.text p.button{
+	padding: 14px 0 13px;
+}
+/*検索結果 画像*/
+section.search-result-artist div.artist-search-result span.img a{height: 160px; width: 40%;}
+}
+
+
+

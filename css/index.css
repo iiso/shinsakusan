@@ -1,0 +1,123 @@
+div.span5{
+
+padding:9px; 
+background-color:white; 
+border-radius: 6px;
+}
+
+
+div.span7{
+padding:9px; 
+background-color:white; 
+border-radius: 6px;
+border-color: #FFE4E1;
+border-style: solid;
+}
+
+
+
+
+
+
+
+span.tag{border: 1px solid 
+#A5D24A;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+display: block;
+float: left;
+padding: 5px;
+text-decoration: none;
+background: 
+#CDE69C;
+color: 
+#638421;
+margin-right: 5px;
+margin-bottom: 5px;
+font-family: helvetica;
+font-size: 13px;
+}
+
+
+div.access{
+float:right;
+font-size: 20px;
+}
+
+div.contents{
+padding:15px; 
+padding-bottom:20px; 
+
+ border-radius: 6px;
+border: thin #DEB887 solid; 
+}
+
+
+
+div.span2{
+padding:9px; 
+background-color:white; 
+border-radius: 6px;
+}
+
+div.span4{
+padding:9px; 
+background-color:white; 
+border-radius: 6px;
+}
+
+div.span6{
+padding:10px; 
+background-color:white; 
+border-radius: 6px;
+border-color: #FFE4E1;
+border-style: solid;
+}
+
+p.description{
+font-size:17px;
+margin:15px;}
+
+
+body{
+padding-top:70px; 
+
+/*padding-left:200px;*/
+
+}
+
+
+
+
+img.fb_icon{
+float:left;
+margin-right:15px;
+height:60px;
+width:60px;
+border-radius: 6px;
+}
+
+img.picture{
+margin-left: 1em;
+margin-bottom: 20px;
+float:right;
+max-height: 150px;
+max-width: 200px;
+border-radius: 6px;
+
+}
+
+
+div.row{
+ margin:auto;
+}
+
+img.a_product{
+height:70px;
+margin-right:10px;
+}
+
+b.a_product{
+font-size:16px;}
+
+
